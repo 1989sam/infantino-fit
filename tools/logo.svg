@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1c22"/>
+      <stop offset="1" stop-color="#0b0c0f"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0313c"/>
+      <stop offset="1" stop-color="#a5101a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <path d="M256 44 L430 104 V250 C430 352 356 428 256 470 C156 428 82 352 82 250 V104 Z" fill="url(#red)" stroke="#ffffff" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M256 70 L408 122 V250 C408 340 344 408 256 446 C168 408 104 340 104 250 V122 Z" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="4"/>
+  <text x="256" y="168" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="46" fill="#fff" letter-spacing="2">INFANTINO</text>
+  <g fill="#fff">
+    <rect x="150" y="238" width="212" height="18" rx="6"/>
+    <rect x="160" y="204" width="26" height="86" rx="7"/>
+    <rect x="130" y="216" width="22" height="62" rx="7"/>
+    <rect x="326" y="204" width="26" height="86" rx="7"/>
+    <rect x="360" y="216" width="22" height="62" rx="7"/>
+  </g>
+  <text x="256" y="364" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-weight="bold" font-size="78" fill="#fff" letter-spacing="6">FIT</text>
+  <text x="256" y="410" text-anchor="middle" font-family="DejaVu Serif, Georgia, serif" font-size="24" fill="#fff" fill-opacity=".85" letter-spacing="3">MCMLXXXIX</text>
+</svg>

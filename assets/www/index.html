@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0e0f13">
+<title>Infantino-Fit</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+  <header id="top"></header>
+  <main id="view"></main>
+  <div id="activeBar" class="hidden"></div>
+  <div id="timerBar" class="hidden"></div>
+  <nav id="tabs">
+    <button data-tab="home"><span class="ti">🏠</span><span>Accueil</span></button>
+    <button data-tab="programs"><span class="ti">📋</span><span>Programmes</span></button>
+    <button data-tab="history"><span class="ti">📅</span><span>Historique</span></button>
+    <button data-tab="progress"><span class="ti">📈</span><span>Progrès</span></button>
+    <button data-tab="settings"><span class="ti">⚙️</span><span>Réglages</span></button>
+  </nav>
+</div>
+<div id="sheet" class="hidden"></div>
+<div id="toast" class="hidden"></div>
+<input type="file" id="fileIn" accept=".json,application/json" class="hidden">
+<script src="db.js"></script>
+<script src="program.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
